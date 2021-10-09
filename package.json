@@ -1,0 +1,34 @@
+{
+  "name": "birds-app",
+  "version": "1.0.0",
+  "description": "The back-end part of our birds application",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedElgaidi/birds-app-back-end.git"
+  },
+  "keywords": [
+    "back-end",
+    "node.js",
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "jsonwebtoken"
+  ],
+  "author": "Ahmed Elgaidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedElgaidi/birds-app-back-end/issues"
+  },
+  "homepage": "https://github.com/AhmedElgaidi/birds-app-back-end#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
