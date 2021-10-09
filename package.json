@@ -4,7 +4,7 @@
   "description": "The back-end part of our birds application",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -26,9 +26,14 @@
   },
   "homepage": "https://github.com/AhmedElgaidi/birds-app-back-end#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
